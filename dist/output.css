@@ -795,6 +795,7 @@ body{
 /*CONTENT*/
 
 .content{
+  height: 100%;
   padding: 0 78px;
 }
 
@@ -1085,3 +1086,23 @@ body{
 }
 
 /*CUSTOM SELECT END*/
+
+/*ADAPTIVE*/
+
+@media (max-width: 1220px) {
+  .content{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .base-table{
+    display: none;
+  }
+
+  .base-table-pagination{
+    display: none;
+  }
+}
+
+/*ADAPTIVE END*/

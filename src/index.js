@@ -8,12 +8,12 @@ navbarIcon.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', () => {
     ItcCustomSelect.create('.base-table-pagination__select', {
         name: 'pages',
-        targetValue: '1',
+        targetValue: '10',
         options: [
-            ['1', '1'],
-            ['2', '2'],
-            ['3', '3'],
-            ['4', '4']
+            ['10', '10'],
+            ['20', '20'],
+            ['30', '30'],
+            ['40', '40']
         ],
         onSelected(select, option) {
             const text = option ? option.textContent : '';
