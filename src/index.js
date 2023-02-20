@@ -1,7 +1,9 @@
 let navbarIcon = document.querySelector('.navbar-icon')
 let navbar = document.querySelector('.navbar')
+let content = document.querySelector('.content')
 navbarIcon.addEventListener('click', () => {
     navbar.classList.toggle('active')
+    content.classList.toggle('active')
 })
 
 
